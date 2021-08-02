@@ -1,0 +1,96 @@
+import {DefaultTheme} from 'styled-components';
+import {
+  ColorList,
+  FontFamilyList,
+  FontSizeList,
+  HeightList, IconType,
+  ImageBackgroundType,
+  ImageLogoType,
+  MarginList,
+  PaddingList,
+  WidthList,
+} from './Enums';
+
+const mainTheme: DefaultTheme = {
+  color: {
+    backgroundGrey: ColorList.backgroundGrey,
+    textGrey: ColorList.textGrey,
+    primary: ColorList.primary,
+    secondary: ColorList.secondary,
+    tertiary: ColorList.tertiary,
+    facebook: ColorList.facebook,
+    google: ColorList.google,
+    black: ColorList.black,
+    white: ColorList.white,
+  },
+  font: {
+    size: {
+      xxs: FontSizeList.xxs,
+      xs: FontSizeList.xs,
+      sm: FontSizeList.sm,
+      md: FontSizeList.md,
+      lg: FontSizeList.lg,
+      xl: FontSizeList.xl,
+    },
+    family: {
+      primary: FontFamilyList.primary,
+      primaryBold: FontFamilyList.primaryBold,
+      secondary: FontFamilyList.secondary,
+      secondaryBold: FontFamilyList.primaryBold,
+    },
+  },
+  padding: {
+    none: PaddingList.none,
+    xs: PaddingList.xs,
+    sm: PaddingList.sm,
+    md: PaddingList.md,
+    lg: PaddingList.lg,
+    xl: PaddingList.xl,
+    xxl: PaddingList.xxl,
+  },
+  margin: {
+    none: MarginList.none,
+    xs: MarginList.xs,
+    sm: MarginList.sm,
+    md: MarginList.md,
+    lg: MarginList.lg,
+    xl: MarginList.xl,
+    xxl: MarginList.xxl,
+  },
+  height: {
+    xs: HeightList.xs,
+    sm: HeightList.sm,
+    md: HeightList.md,
+    lg: HeightList.lg,
+    xl: HeightList.xl,
+    smallButton: HeightList.smallButton,
+    mainLogo: HeightList.mainLogo,
+    smallLogo: HeightList.smallLogo,
+    socialButtonLogo: HeightList.socialButtonLogo,
+    productImage: HeightList.productImage,
+    vendorImage: HeightList.vendorImage,
+    categoryImage: HeightList.categoryImage,
+    registerImage: HeightList.registerImage,
+    tabImage: HeightList.tabImage,
+  },
+  width: {
+    smallButton: WidthList.smallButton,
+    mediumButton: WidthList.mediumButton,
+    mainLogo: WidthList.mainLogo,
+    smallLogo: WidthList.smallLogo,
+    socialButtonLogo: WidthList.socialButtonLogo,
+    productImage: WidthList.productImage,
+    vendorImage: WidthList.vendorImage,
+    categoryImage: WidthList.categoryImage,
+    registerImage: WidthList.registerImage,
+    tabImage: WidthList.tabImage,
+  },
+  logo: {
+    primaryLogo: ImageLogoType.primary,
+    secondaryLogo: ImageLogoType.secondary,
+    googleLogo: ImageLogoType.google,
+  },
+
+};
+
+export default mainTheme;
